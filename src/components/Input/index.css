@@ -1,0 +1,15 @@
+
+.inputCal{
+width: 370px;
+height: 200px;
+display: flex;
+flex: 1;
+justify-content: flex-end;
+font-weight: bold;
+font-size: 100px;
+align-items: center;
+
+}
+[contentEditable=true]:empty:not(:focus):before{
+    content:attr(data-text)
+}
